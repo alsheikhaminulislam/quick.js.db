@@ -2,7 +2,7 @@
  * quick.db definitions
  */
 
-declare module 'quick.js.db' {
+declare module '@deathinside/quick.js.db' {
     export interface Options {
         target?: string | null;
         table?: string;

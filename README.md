@@ -1,7 +1,7 @@
 
 ## Example
 ```js
-const quickdb = require('quick.js.db');
+const quickdb = require('@deathinside/quick.js.db');
 
 const db = quickdb('./json.sqlite');
 
@@ -31,13 +31,13 @@ db.get('userInfo.items') // ['Sword', 'Watch']
 ## Installation
 
 **Linux & Windows**
-- `npm i quick.js.db`
+- `npm i @deathinside/quick.js.db`
 
 **Mac**
 1. **Install:** XCode
 2. **Run:** `npm i -g node-gyp` in terminal
 3. **Run:** `node-gyp --python /path/to/python2.7` (skip this step if you didn't install python 3.x)
-4. **Run:** `npm i quick.js.db`
+4. **Run:** `npm i @deathinside/quick.js.db`
 
 ## Support
 I work on these projects in my spare time, if you'd like to support me, you can do so via [Discord! ❤️](https://discord.gg/J9j929PyTq)
